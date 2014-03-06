@@ -1,0 +1,915 @@
+{
+  "id" : "jackson-databind",
+  "variants" : [ "37a1f2cfe77c9d0ba4537dac3784c642e865d552c53b6bd32e0538ddf86cf091", "6ec349e86a4025c2d95b0fbf74fb4ec970841a41b72cacd06e103dd9d1d8f62f", "1e0fd2efae3c7a1e669606160b4f7107daa662fe4ae3aedb5379d54d15d67845", "3a1fa8a9e750c5c2a810e95e5eebd23addbcf247baa4b37ff155b54245231ad6", "c6b4cb3e2e9af879854cc8b444d93e84aa338ff4dd9c6e8d25ee33b28aa47567", "f68f54d39d46b43440a48a7f184dda7619d29cab30e41ab189b63c7b11ba35c0", "054e357e044f6f343b177a22b164aaf26fe3976adeffc9e08c6d47e258fbe9bc", "9c5d566c1089ced6f14520dc83428da5fb019b589294e8d6ba95ec6c9cc57e91", "0fba1fc1263daeec46da089d4bd5819c88891a0ec6b5784461560dc59f26dda3", "a7c66564016c3ef67595aea9575c6108906deaf2332da0e9e197057d8ff159fe", "6c6dfb62f304644a0042a7437e09f113cf5f1a03af47375d75473f92545f1977" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  }, {
+    "id" : "system",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  }, {
+    "id" : "master",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  }, {
+    "id" : "default",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ {
+      "id" : "jackson-core/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/javadoc",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/provided",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/system",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/sources",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/test",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/runtime",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-core/config/default",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/master",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/compile",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    }, {
+      "id" : "jackson-annotations/config/optional",
+      "repository" : "com.fasterxml.jackson.core",
+      "commit" : "2f053c18af5ed598916eb587c5a4f671696e0778"
+    } ]
+  } ]
+}
