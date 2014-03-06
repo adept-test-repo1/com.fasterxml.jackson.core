@@ -1,0 +1,35 @@
+{
+  "id" : "jackson-annotations",
+  "variants" : [ "8de69c81aced101de730ad771761700b082c04fdc5dd7951b1e5a8bc7dd5851d", "dad980c8f69804ad9eb4a821de301fa85229a0699fdefaf3160aa82476b6bf4e", "9eddd91c6d95d361684f6076b88616decf94caa04016fc83331576bc3758caa2", "d2b9c574e7c4487e60bd64c3d9f03586aed0a690721adff0fbe0bbfd01a0262c", "c6dc68085a9b86d108f3eed0c2f95b1db1f3e88dbb33eb70515e74f92321d2e2", "5d0dff029dd87d067b74fb7db3d6b7895ea913654a9f3ac1ac69ef380f3ed100", "efcb8ae99b85f6ee1548d59488d80c99038b2122caf10d9c6219a1398bcaa2ff", "7c9ec3b6ba8148a00cf71d850b74b5773a32bc58107cc99ed6c64cd3d217b514", "5ed2bd9c2f92fb5fc2228e66e5087cfc429b0b58a278d073906a569c85db401b", "b960421af6ea58faf595724b48e439bae03cbb8c1826a360d1e2632343939295", "75fb72a703ffd823fde5eed8c07b4389e948163aaed5080279aeb5d7e2ee5912" ],
+  "configurations" : [ {
+    "id" : "test",
+    "repositories" : [ ]
+  }, {
+    "id" : "provided",
+    "repositories" : [ ]
+  }, {
+    "id" : "system",
+    "repositories" : [ ]
+  }, {
+    "id" : "master",
+    "repositories" : [ ]
+  }, {
+    "id" : "optional",
+    "repositories" : [ ]
+  }, {
+    "id" : "compile",
+    "repositories" : [ ]
+  }, {
+    "id" : "default",
+    "repositories" : [ ]
+  }, {
+    "id" : "sources",
+    "repositories" : [ ]
+  }, {
+    "id" : "javadoc",
+    "repositories" : [ ]
+  }, {
+    "id" : "runtime",
+    "repositories" : [ ]
+  } ]
+}
